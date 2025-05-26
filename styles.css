@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(255, 188, 149);
+}
+.TopBanner {
+    text-align: center;
+}
+.Main {
+    background-color: rgb(255, 132, 61);
+}
+/*.BottomBanner {
+    Add designs here
+}*/
+#HomePgBanner {
+    padding: 20px;
+}
