@@ -35,6 +35,11 @@ body {
 .HSButtonSelection {
     text-align: center;
 }
+.linkdivision {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .PepperTypeButton {
     background-color: rgb(255, 102, 64);
     border: 3px dashed rgb(255, 0, 0);
