@@ -38,8 +38,11 @@ body {
 }
 .linkdivision {
     display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.LinkHeader {
+    color: rgb(255, 91, 27)
 }
 .PepperTypeButton {
     background-color: rgb(255, 102, 64);
