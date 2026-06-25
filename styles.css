@@ -10,6 +10,11 @@ nav li {
     list-style: none;
 }
 
+section {
+    display:block;
+    text-align: center;
+}
+
 .Bannerhr {
     border: 4px solid rgb(255, 92, 92);
     width: 1500px;
