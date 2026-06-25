@@ -5,9 +5,18 @@ body {
     color:midnightblue;
 }
 
+nav {
+    display:inline-flex;
+    float: right;
+}
+
 nav li {
     display:inline-block;
     list-style: none;
+}
+
+h1 {
+    display:inline-block;
 }
 
 section {
