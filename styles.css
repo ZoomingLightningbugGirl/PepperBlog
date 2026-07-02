@@ -67,10 +67,20 @@ hr {
     text-align: center;
 }
 .linkdivision {
-    display: inline-block;
-    margin-left: 175px;
-    margin-right: 175px;
+    display: inline-flex;
+    width:30vw;
 }
+
+.linkdivision a {
+    display:block;
+    color:midnightblue;
+}
+
+.linkdivision a:hover {
+    color:blanchedalmond;
+    background-color: midnightblue;
+}
+
 .LinkHeader {
     color: rgb(255, 91, 27)
 }
