@@ -13,6 +13,17 @@ nav {
 nav li {
     display:inline-block;
     list-style: none;
+    margin:10px;
+    padding:5px;
+    background-color: aliceblue;
+    border:2px solid midnightblue;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:15px;
+}
+
+iframe {
+    box-shadow: 2px seagreen;
 }
 
 h1 {
@@ -32,11 +43,13 @@ hr {
     border: 4px dotted white;
     display: inline-block;
     width: 400px;
+    border-radius: 30px;
 }
 .FeaturedCategory {
     display: inline-block;
     margin: 10px;
     width: 400px;
+    border-radius: 30px;
 }
 .HotSauceButton {
     background-color: rgb(255, 102, 64);
@@ -83,7 +96,7 @@ hr {
     text-align: center;
     color: rgb(130, 36, 10);
 }
-.Main {
+main {
     background-color: rgb(255, 132, 61);
     color: rgb(130, 36, 10);
     height: 750px;
@@ -92,7 +105,7 @@ hr {
     padding: 30px;
     width: 1000
 }
-.BottomBanner {
+footer {
     color: rgb(255, 91, 27)
 }
 #Habanero {
