@@ -38,11 +38,6 @@ section {
     margin: 10px;
     width: 400px;
 }
-.freckle-face-regular {
-  font-family: "Freckle Face", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 .HotSauceButton {
     background-color: rgb(255, 102, 64);
     border: 3px dashed rgb(255, 0, 0);
@@ -75,14 +70,6 @@ section {
     text-align: center;
     width: 300px;
     margin: 10px;
-}
-.sour-gummy {
-  font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 .spicy-rice-regular {
   font-family: "Spicy Rice", serif;
@@ -118,4 +105,19 @@ section {
 }
 #PepperTypeMain {
     height: 1250px;
+}
+
+table {
+    margin:20px;
+    display:inline-flex;
+    align-self: center;
+    background-color: aliceblue;
+}
+
+td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    border:2px solid darkblue;
+    border-collapse:collapse;
+    padding:3px 10px;
 }
