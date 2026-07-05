@@ -48,6 +48,11 @@ hr {
     border-radius: 30px;
     height:40vw;
 }
+
+.dropdown:hover {
+    cursor:pointer;
+}
+
 .FeaturedCategory {
     display: inline-block;
     margin: 10px;
