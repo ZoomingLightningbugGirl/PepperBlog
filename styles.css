@@ -5,12 +5,12 @@ body {
     color:midnightblue;
 }
 
-nav {
+header nav {
     display:inline-flex;
     float: right;
 }
 
-nav li {
+header nav li {
     display:inline-block;
     list-style: none;
     margin:10px;
@@ -44,14 +44,24 @@ hr {
 .CategoryIMG {
     border: 4px dotted white;
     display: inline-block;
-    width: 400px;
+    width: 29vw;
     border-radius: 30px;
+    height:40vw;
 }
 .FeaturedCategory {
     display: inline-block;
     margin: 10px;
-    width: 400px;
+    width: 30vw;
     border-radius: 30px;
+}
+#recipe {
+    background-image:url(images/PepperRecipe.jpg);
+}
+#types {
+    background-image:url(images/CarolinaReaper.jpg);
+}
+#maintain {
+    background-image:url(images/Watering.jpg);
 }
 .HotSauceButton {
     background-color: rgb(255, 102, 64);
@@ -69,7 +79,7 @@ hr {
     text-align: center;
 }
 .linkdivision {
-    display: inline-flex;
+    display: inline-block;
     width:30vw;
 }
 
@@ -147,3 +157,4 @@ td {
     border-collapse:collapse;
     padding:3px 10px;
 }
+
