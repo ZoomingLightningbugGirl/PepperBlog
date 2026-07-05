@@ -1,8 +1,8 @@
-// Variables for the image carousel
+/* Variables for the image carousel
 let image = document.getElementById("scrollImg");
 let frame1;
 let frame2;
-let frame3;
+let frame3;*/
 
 // Variables for the dropdown
 let howmuch = document.getElementById('howmuch');
@@ -29,16 +29,21 @@ function dropdown1() {
     console.log("test");
 }
 function dropdown2() {
-    sproutA.textContent = 'The habanero is thought to have originated in Meso- or South-America.';
+    sproutA.textContent = "Sprouts should be kept consistently moist but not waterlogged. I'd recommend using a mist watering can to ensure ";
+    sproutA.textContent += "no more water is present than necessary to prevent root endrot.";
 }
 function dropdown3() {
-    devingA.textContent = 'Text1';
+    devingA.textContent = 'Water developing pepper plants about once per week, at least enough to let the soil dry out a bit first. They do ';
+    devingA.textContent += "not like to be kept consistently wet, as their roots could become rotted at the tips. This would make the pepper "
+    devingA.textContent += "unstable both externally and internally.";
 }
 function dropdown4() {
-    bushA.textContent = 'Text2';
+    bushA.textContent = 'An in-ground pepper bush may be hosed down once per week if exposed to direct sunlight for the prescribed 6 hours ';
+    bushA.textContent += "per day. They are very self-sufficient and hardy, so if you have a nice aquifer or a light rain here and there ";
+    bushA.textContent += "throughout the week, you should be fine!";
 }
 
-image.addEventListener('click', scrolling);
+//image.addEventListener('click', scrolling);
 howmuch.addEventListener('click', dropdown1);
 sprout.addEventListener('click', dropdown2);
 deving.addEventListener('click', dropdown3);
