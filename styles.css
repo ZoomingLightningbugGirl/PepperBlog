@@ -20,6 +20,7 @@ nav li {
     font-weight: 600;
     text-decoration: none;
     border-radius:15px;
+    font-size: 1.4rem;
 }
 
 iframe {
@@ -83,7 +84,8 @@ hr {
 }
 
 .LinkHeader {
-    color: rgb(255, 91, 27)
+    color: rgb(255, 91, 27);
+    display:block;
 }
 .PepperTypeButton {
     background-color: rgb(255, 102, 64);
@@ -101,7 +103,7 @@ hr {
   font-size: 60px;
   font-style: normal;
 }
-.TopBanner {
+header {
     padding-left: 0px;
     padding-bottom: 0px;
     text-align: center;
@@ -122,11 +124,13 @@ footer {
 #Habanero {
     height: 1000px;
 }
+
 #HomePgBanner {
     padding: 20px;
     padding-left: 0px;
     padding-bottom: 0px;
 }
+
 #PepperTypeMain {
     height: 1250px;
 }
